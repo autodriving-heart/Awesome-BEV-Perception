@@ -5,33 +5,29 @@
 自动驾驶之心是国内首个自动驾驶开发者社区！这里有最全面有效的自动驾驶与AI学习路线（感知/定位/融合）和自动驾驶与AI公司内推机会！
 
 
-## 一、**综述** | Overview
+## 一、Overview
 
-### 1.**基于BEV的3D目标检测综述** | A review of BEV-based 3D target detection
+### 1. A review of BEV-based 3D target detection
 
 Vision-Centric BEV Perception: A Survey
 
-### 2.**2022.9.12 BEV感知最新综述** | BEV Perception Update Roundup
+### 2. BEV Perception Update Roundup
 
 Delving into the Devils of Bird’s-eye-view Perception: A Review, Evaluation and Recipe
 
 [[Code]](https://github.com/OpenPerceptionX/BEVPerception-Survey-Recipe)
 
-### 3.**2023 面向BEV检测的视觉-雷达融合综述**
-
-### A review of vision-radar fusion for BEV detection
+### 3. A review of vision-radar fusion for BEV detection
 
 Vision-RADAR fusion for Robotics BEV Detections: A Survey
 
-### 4.**2023** **自动驾驶环绕视图的3D目标检测综述**
-
-### A review of 3D target detection for self-driving surround view
+### 4. A review of 3D target detection for self-driving surround view
 
 Surround-View Vision-based 3D Detection for Autonomous Driving: A Survey
 
-## 二、**基于相机的BEV** | Camera-based BEV
+## 二、Camera-based BEV
 
-### 1.**基于相机的BEV感知方法列表** | List of camera-based BEV sensing methods
+### 1. List of camera-based BEV sensing methods
 
 Lift, Splat, Shoot: Encoding Images from Arbitrary Camera Rigs by Implicitly Unprojecting to 3D 
 
@@ -137,15 +133,13 @@ BEVerse: Unified Perception and Prediction in Birds-Eye-View for Vision-Centric 
 
 [project](https://github.com/zhangyp15/BEVerse)
 
-### 2.**基于环绕单目图像的BEV外观和Occupancy信息估计**
-
-### Estimation of BEV Appearance and Occupancy Information Based on Surrounding Monocular Images
+### 2. Estimation of BEV Appearance and Occupancy Information Based on Surrounding Monocular Images
 
 Estimation  of  Appearance  and  Occupancy  Information  in  Bird’s  EyeView  from  Surround  Monocular  Images
 
 [[Code]](https://uditsinghparihar.github.io/APP_OCC/)
 
-###3.**去相机参数的BEV表示方法** | BEV representation of de-camera parameters
+###3. BEV representation of de-camera parameters
 
 Multi-Camera Calibration Free BEV Representation for 3D Object Detection
 
@@ -157,9 +151,9 @@ BEVFormer v2: Adapting Modern Image Backbones to Bird’s-Eye-View Recognition v
 
 From a Bird’s Eye View to See: Joint Camera and Subject Registration without the Camera Calibration
 
-## 三、**基于LiDAR的BEV** | LiDAR-based BEV
+## 三、LiDAR-based BEV
 
-### 1.**基于LiDAR的BEV感知方法列表** | List of LiDAR-based BEV sensing methods
+### 1. List of LiDAR-based BEV sensing methods
 
 VoxelNet: End-to-End Learning for Point Cloud Based 3D Object Detection
 
@@ -199,19 +193,15 @@ AFDetV2: Rethinking the Necessity of the Second Stage for Object Detection from 
 
 PointPillars: Fast Encoders for Object Detection From Point Clouds 
 
-### 2.**BEV-MAE：基于点云的预训练框架** | Point cloud-based pre-training framework
+### 2. Point cloud-based pre-training framework
 
 BEV-MAE: Bird's Eye View Masked Autoencoders for Outdoor Point Cloud Pre-training
 
-### 3.**BEV-SAN：**利用切片注意力进行精确的BEV 3D目标检测
-
-### BEV-SAN: Accurate BEV 3D target detection using slicing attention
+### 3. BEV-SAN: Accurate BEV 3D target detection using slicing attention
 
 BEV-SAN: Accurate BEV 3D Object Detection via Slice Attention Networks
 
-### 4.**2D目标检测和LiDAR联合训练（2.5D点）**
-
-###  2D target detection and LiDAR joint training (2.5D points)
+### 4. 2D target detection and LiDAR joint training (2.5D points)
 
 Objects as Spatio-Temporal 2.5D points
 
@@ -219,9 +209,9 @@ Objects as Spatio-Temporal 2.5D points
 
 BEV-LGKD: A Unified LiDAR-Guided Knowledge Distillation Framework for BEV 3D Object Detection
 
-## 四、**BEV融合** | BEV Fusion
+## 四、BEV Fusion
 
-### 1.**BEV融合方法列表** | List of BEV fusion methods
+### 1. List of BEV fusion methods
 
 Unifying Voxel-based Representation with Transformer for 3D Object Detection
 
@@ -239,17 +229,15 @@ BEVFusion: A Simple and Robust LiDAR-Camera Fusion Framework
 
 [project](https://github.com/ADLab-AutoDrive/BEVFusion)
 
-### 2.**X-Align相机和LiDAR的BEV特征融合改进**
-
-### BEV feature fusion improvement with X-Align camera and LiDAR
+### 2.BEV feature fusion improvement with X-Align camera and LiDAR
 
 X-Align Cross-Modal Cross-View Alignment for Bird’s-Eye-View Segmentation
 
-### 3.**Radar和LiDAR BEV融合系统** | Radar and LiDAR BEV fusion system
+### 3. Radar and LiDAR BEV fusion system
 
 RaLiBEV: Radar and LiDAR BEV Fusion Learning for Anchor Box Free Object Detection System
 
-### 4.**BEV下的多模态融合方法汇总** | Summary of multimodal fusion methods under BEV
+### 4. Summary of multimodal fusion methods under BEV
 
 PointPainting: Sequential Fusion for 3D Object Detection (CVPR'19)
 
@@ -299,9 +287,7 @@ MSMDFusion: Fusing LiDAR and Camera at Multiple Scales with Multi-Depth Seeds fo
 
 [project](https://github.com/SxJyJay/MSMDFusion)
 
-## 五、**BEV下的多任务学习方法汇总**
-
-### 1.Summary of multi-task learning methods under BEV
+## 五、Summary of multi-task learning methods under BEV
 
 FIERY: Future Instance Prediction in Bird’s-Eye View from Surround Monocular Cameras 
 
@@ -339,9 +325,9 @@ PolarFormer: Multi-camera 3D Object Detection with Polar Transformers
 
 [project](https://github.com/fudan-zvg/PolarFormer)
 
-## 六、**PV2BEV方法汇总** | PV2BEV method summary
+## 六、PV2BEV method summary
 
-### 1.**基于depth方法的PV2BEV汇总** | Summary of PV2BEV based on depth method
+### 1. Summary of PV2BEV based on depth method
 
 OFT: Orthographic Feature Transform for Monocular 3D Object Detection 
 
@@ -407,9 +393,7 @@ Putting People in their Place: Monocular Regression of 3D People in Depth
 
 [Code](https://github.com/Arthur151/ROMP) [Project](https://arthur151.github.io/BEV/BEV.html) [Video](https://youtu.be/Q62fj_6AxRI) [RH Dataset](https://github.com/Arthur151/Relative_Human)
 
-### 2.**基于霍夫变换的PV2BEV方法汇总**
-
-### Summary of PV2BEV methods based on Hough transform
+### 2. Summary of PV2BEV methods based on Hough transform
 
 IPM: Inverse perspective mapping simplifies optical flow computation and obstacle detection 
 
